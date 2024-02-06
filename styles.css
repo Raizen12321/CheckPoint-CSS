@@ -1,0 +1,171 @@
+/* Initialization */
+
+*{
+
+  font-family: "Roboto Mono", monospace;
+  transition: 0.2s;
+
+}
+
+/* Barre de Navigation */
+
+.navbar{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkcyan;
+  color: white;
+
+}
+
+.navbar ul{
+
+  list-style: none;
+  display: flex;
+  margin-right: 10px;
+
+}
+
+.navbar li{
+
+  /* padding: 5px; */
+  margin: 5px;
+
+}
+
+.navbar a{
+
+  text-decoration: none;
+  color: white;
+
+}
+
+.logo{
+
+  margin-left: 15px;
+  font-weight: bold;
+
+}
+
+
+/* Introduction */
+
+
+.intro{
+
+  /* display: flex; */
+  justify-content: center;
+  width: 80%;
+  border: solid rgba(131, 131, 131, 0.521) 5px;
+  margin-top: 90px;
+  margin-left: 10%;
+  border-radius: 20px;
+  margin-bottom: 90px;
+
+}
+
+.main-picture{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.main-picture img{
+
+  width: 30%;
+  height: 500px;
+  border-radius: 50%;
+  margin: 90px 0px;
+
+}
+
+.intro-description{
+
+  margin: 40px;
+  color: rgb(101, 101, 101);
+  background-color: rgb(228, 227, 227);
+  padding: 10px;
+  border-radius: 15px;
+
+}
+
+.portfolio-name{
+
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+
+}
+
+.intersts{
+
+  display: flex;
+
+}
+
+.singular-interest{
+
+  width: 26%;
+  height: 220px;
+  margin-left: 4%;
+  padding: 20px;
+  border-radius: 30px;
+
+}
+
+.singular-interest img{
+
+  width: 90%;
+  height: 90%;
+  border-radius: 15px;
+  display: block;
+
+}
+
+
+.interest-title{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+/* Footer */
+
+footer{
+
+  background-color: rgba(0, 139, 139, 0.852);
+  height: 200pX;
+
+}
+
+.contact{
+
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.647);
+
+}
+
+.credentials{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.credentials p,h4{
+
+  margin: 5px;
+
+}
+
+.credentials h4{
+
+  margin-top: 25px;
+
+}
